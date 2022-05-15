@@ -1,0 +1,18 @@
+{
+    "version": "0.1.0",
+    "name": "hulu",
+    "dependencies": {
+        "@heroicons/react": {
+            "version": "1.0.6"
+        },
+        "next": {
+            "version": "12.1.6"
+        },
+        "react-dom": {
+            "version": "18.1.0"
+        },
+        "react": {
+            "version": "18.1.0"
+        }
+    }
+}
