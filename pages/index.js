@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Nav from '../components/Nav'
-import Header from '../components/Header'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import Nav from "../components/Nav";
+import Header from "../components/Header";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -13,15 +13,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      {/* Header */}
+      <Header />
 
-    { /* Header */}
-    <Header />
-
-    { /* Nav */}
-    <Nav />
-    { /* Results */}
-
-
+      {/* Nav */}
+      <Nav />
+      {/* Results */}
     </div>
-  )
+  );
 }
