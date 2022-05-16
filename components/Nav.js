@@ -12,14 +12,13 @@ function Nav() {
         whitespace-nowrap
         space-x-10 sm:space-x-20
         overflow-x-scroll
-        
-        "
+        scrollbar-hide"
       >
         {Object.entries(Requests).map(([key, { title, url }]) => (
           // eslint-disable-next-line react/jsx-key
           <h2
             key={key}
-            className="cursor-pointer transition duration-100 transform hover:scale-125 hover:text-white active:text-red-500"
+            className="last:pr-24 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-white active:text-red-500"
           >
             {title}
           </h2>
