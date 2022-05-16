@@ -1,6 +1,4 @@
-import { processEnv } from "@next/env";
-
-const API_KEY = processEnv.API_KEY;
+const API_KEY = process.env.API_KEY;
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
